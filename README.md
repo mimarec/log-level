@@ -6,7 +6,7 @@ A simple package to colorize the logging output
 
     $ sudo npm install log-leve --save
 
-## Usage
+## USAGE
 
 ```js
 const logger = require('log-level');
@@ -39,6 +39,14 @@ logger.info('Error message');
 ```js
 logger.info('Highlight message');
 ```
+
+## EXAMPLE
+
+![alt tag](https://raw.githubusercontent.com/mimarec/log-level/master/images/example.png)
+
+## DEPENDENCIES
+
+* [colors](https://www.npmjs.com/package/colors)
 
 ## LICENSE
 

@@ -4,7 +4,7 @@ A simple package to colorize the logging output
 
 ## INSTALLATION
 
-    $ sudo npm install log-leve --save
+    $ sudo npm install log-level --save
 
 ## USAGE
 
@@ -20,6 +20,12 @@ logger.info('Processing Resources...');
 
 ```js
 logger.info('Info message');
+```
+
+* **Success message**
+
+```js
+logger.succes('Success message');
 ```
 
 * **Warning message**
@@ -40,9 +46,22 @@ logger.error('Error message');
 logger.highlight('Highlight message');
 ```
 
+* **Custom message**
+
+```js
+logger.custom('[MIMAREC]', 'random', 'Error message');
+```
+
+Custom message receives two mandatory arguments, the rest are interpreted as messages to be concatenated:
+
+* Title
+* Color: Based on colors and styles from [colors](https://www.npmjs.com/package/colors#colors-and-styles)
+* Messages
+
+
 ## EXAMPLE
 
-![alt tag](https://raw.githubusercontent.com/mimarec/log-level/master/images/example.png)
+![alt tag](https://raw.githubusercontent.com/mimarec/log-level/master/images/output.png)
 
 ## DEPENDENCIES
 

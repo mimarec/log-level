@@ -2,7 +2,7 @@
 
 A simple package to colorize the logging output
 
-## Installation
+## INSTALLATION
 
     $ sudo npm install log-leve --save
 
@@ -25,19 +25,19 @@ logger.info('Info message');
 * **Warning message**
 
 ```js
-logger.info('Warning message');
+logger.warning('Warning message');
 ```
 
 * **Error message**
 
 ```js
-logger.info('Error message');
+logger.error('Error message');
 ```
 
 * **Highlight message**
 
 ```js
-logger.info('Highlight message');
+logger.highlight('Highlight message');
 ```
 
 ## EXAMPLE

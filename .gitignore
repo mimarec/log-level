@@ -38,3 +38,9 @@ jspm_packages
 
 # MacOSx
 .DS_Store
+
+# test
+app.js
+
+# vscode
+launch.json
